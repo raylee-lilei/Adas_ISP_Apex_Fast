@@ -1,0 +1,21 @@
+-DCGV_FORCE_INLINE
+-DACF_KERNEL_IMPLEMENTATION
+-I"/home/lilei/workspaceS32DS.3.1/Adas_ISP_Apex/APU_kernels"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/kernels/apu"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/common/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/icp/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/acf_offline/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/drivers/user/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/register_maps/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/acf/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/acf_target/include"
+-I"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/utils/common/include"
+-include"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/acf_offline/include/apu2_kernel_port.h"
+-include"/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/acf_target/include/acf_autokernel_inc.h"
+-O3
+-g3
+-Wall
+-c
+-fmessage-length=0
+-target apex

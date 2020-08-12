@@ -1,0 +1,5 @@
+if run()
+break.direct
+data.load.elf ./APU/FAST9COLOR.elf /nocode
+break.set FAST9COLOR
+go

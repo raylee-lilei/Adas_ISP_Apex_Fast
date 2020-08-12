@@ -1,0 +1,284 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+                              (_reset)
+/home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+                              /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o) (_done)
+/home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                              /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o) (main)
+/home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+                              /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o) (staticSequenceInit)
+/home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(core_regs-s.o)
+                              /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o) (getPRIMASK)
+/home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+                              /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o) (gpOTHR)
+
+Allocating common symbols
+Common symbol       size              file
+
+gpIntDevCfg         0x50              /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+JPEG_EV_Queue       0x200             /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m0_0_intvec      0x00000000         0x000000c0
+sram_RAM         0x00000100         0x0000af00
+stack            0x0000b000         0x00001000
+graph            0x0000c000         0x00004000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a
+
+.vectable       0x00000000       0x40
+                0x00000000                __CM0_0_VECTOR_TABLE = .
+ *(.vectable)
+ .vectable      0x00000000       0x40 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+                0x00000000                vecTab
+
+.init
+ *(.init)
+
+.text           0x00000100     0x65bc
+ *(.text*)
+ .text          0x00000100       0x3c /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+                0x00000100                _reset
+                0x00000130                _exception
+ .text          0x0000013c       0x28 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+                0x0000013c                _done
+                0x00000140                _comp_init
+ .text          0x00000164     0x4a38 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                0x000016f4                initIPUpara
+                0x00001794                updateProdStat
+                0x00001810                updateConsRdy
+                0x00002e98                processEvent
+                0x000039e4                startDev
+                0x00003e90                processMessage
+                0x00004528                checkUpdatedDev
+                0x000048ac                checkStartDev
+                0x00004918                checkIpuFree
+                0x0000492c                numFreeFdmaQueue
+                0x00004944                dbgPrintNum
+                0x00004ab8                exceptionHL
+                0x00004b70                fatalError
+ .text.startup  0x00004b9c       0x90 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                0x00004b9c                main
+ .text          0x00004c2c      0x650 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+                0x00004c2c                StaticSequencing
+                0x00004c38                staticSequenceInit
+                0x00004c4c                staticSequence
+                0x00004df0                staticSequenceWaitFinish
+                0x00004e74                staticSequenceEventIPU
+                0x00004eb8                staticSequenceJpeg4
+                0x00005218                initIPUnode
+                0x00005254                initFDMAnode
+ .text          0x0000527c       0x16 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(core_regs-s.o)
+                0x0000527c                getSP
+                0x00005280                getIPSR
+                0x00005286                getPRIMASK
+                0x0000528c                getCONTROL
+ *fill*         0x00005292        0x2 
+ .text          0x00005294     0x1428 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+                0x00005294                SEQ_IdmaHndl
+                0x00005298                SEQ_EngineHndl
+                0x000058c8                SEQ_HostEvntDoneHndl
+                0x000058dc                SEQ_HostMsgHndl
+                0x000058f8                SEQ_HostOutAckHndl
+                0x0000592c                SEQ_FdmaErrHndl
+                0x00005950                SEQ_ErrHndl
+                0x0000597c                SEQ_DfltHndl
+                0x000059a8                SEQ_ExecuteEvents
+                0x00006398                SEQ_EvntRegIntDev
+                0x00006504                SEQ_EvntInit
+                0x00006600                procOthrEvent
+                0x00006678                procIpuEvent
+
+.glue_7         0x000066bc        0x0
+ .glue_7        0x000066bc        0x0 linker stubs
+
+.glue_7t        0x000066bc        0x0
+ .glue_7t       0x000066bc        0x0 linker stubs
+
+.vfp11_veneer   0x000066bc        0x0
+ .vfp11_veneer  0x000066bc        0x0 linker stubs
+
+.v4_bx          0x000066bc        0x0
+ .v4_bx         0x000066bc        0x0 linker stubs
+
+.iplt           0x000066bc        0x0
+ .iplt          0x000066bc        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+
+.rodata         0x000066bc      0x360
+ *(.rodata*)
+ .rodata        0x000066bc       0xd4 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                0x00006784                gcIntDmaAddr
+                0x00006788                gcClkCtrlAddr
+                0x0000678c                gcEvntCtrlAddr
+ .rodata.str1.4
+                0x00006790      0x132 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                                0x142 (size before relaxing)
+ *fill*         0x000068c2        0x2 
+ .rodata        0x000068c4       0x90 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+ .rodata.str1.4
+                0x00006954       0xc8 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.rel.dyn        0x00006a1c        0x0
+ .rel.iplt      0x00006a1c        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+
+.sdabase
+ *(.sdabase*)
+
+.sdata
+ *(.sdata*)
+
+.sdata2
+ *(.sdata2*)
+
+.sbss
+ *(.sbss*)
+
+.data           0x00006a20        0x8
+ *(.data*)
+ .data          0x00006a20        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+ .data          0x00006a20        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .data          0x00006a20        0x8 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                0x00006a20                gOutMsgFree
+ .data          0x00006a28        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .data          0x00006a28        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(core_regs-s.o)
+ .data          0x00006a28        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.igot.plt       0x00006a28        0x0
+ .igot.plt      0x00006a28        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+
+.bss            0x00006a30      0x834
+                0x00006a30                __bss_start__ = .
+ *(.bss*)
+ .bss           0x00006a30        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+ .bss           0x00006a30        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .bss           0x00006a30      0x374 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                0x00006a30                gpJPEGdecCons
+                0x00006a36                JPEG_EV_Fi
+                0x00006a38                JPEG_EV_Rd
+                0x00006a4a                gFrameErrors
+                0x00006a5c                gIPUSdone
+                0x00006a60                gNumIpusRun
+                0x00006a70                gIPUVdone
+                0x00006a74                gNumIpuvRun
+                0x00006a7c                gNumFdmaRun
+                0x00006ac4                gFDMAdone
+                0x00006ac8                gOTHRdone
+                0x00006acc                gpMIPI0
+                0x00006ad0                gNumCamLines
+                0x00006ad4                gpMIPI1
+                0x00006ad8                gpVIU0
+                0x00006adc                gpVIU1
+                0x00006ae0                gpH264enc
+                0x00006ae4                gpH264dec
+                0x00006ae8                gpJPEGdec
+                0x00006aec                JPEG_EV_Wr
+                0x00006af0                gpDBG
+                0x00006af4                gInputLines
+                0x00006b04                gNumH264EncRun
+                0x00006b0c                gpGraph
+                0x00006b10                gpBuf
+                0x00006da0                gpcDBGend
+ .bss           0x00006da4      0x148 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+                0x00006da4                sStaticSeq
+ .bss           0x00006eec        0x0 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(core_regs-s.o)
+ .bss           0x00006eec      0x128 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+                0x00006ef0                gpIPUS
+                0x00006f30                gpIPUV
+                0x00006f50                gIntDevCnt
+                0x00006f54                gpOTHR
+                0x00007014                __bss_end__ = .
+ COMMON         0x00007014      0x200 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                0x00007014                JPEG_EV_Queue
+ COMMON         0x00007214       0x50 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+                0x00007214                gpIntDevCfg
+
+.stack          0x0000b000        0x0
+                0x0000b000                __CM0_0_STACK_BOTTOM = .
+
+.graph          0x0000c000        0x0
+                0x0000bffc                __CM0_0_STACK_ADDRESS = (. - 0x4)
+                0x0000c000                __graph_start = .
+OUTPUT(../SEQ/sequencer.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x23 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(crt0_start-s.o)
+ .ARM.attributes
+                0x00000023       0x31 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .ARM.attributes
+                0x00000054       0x31 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .ARM.attributes
+                0x00000085       0x31 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .ARM.attributes
+                0x000000b6       0x23 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(core_regs-s.o)
+ .ARM.attributes
+                0x000000d9       0x31 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .comment       0x0000007e       0x7f /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .comment       0x0000007e       0x7f /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_info     0x00000000     0xc576
+ .debug_info    0x00000000      0x965 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .debug_info    0x00000965     0x7ace /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_info    0x00008433     0x18f7 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_info    0x00009d2a     0x284c /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_abbrev   0x00000000      0xf05
+ .debug_abbrev  0x00000000      0x1f3 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .debug_abbrev  0x000001f3      0x4db /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_abbrev  0x000006ce      0x3b1 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_abbrev  0x00000a7f      0x486 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_loc      0x00000000     0xc33b
+ .debug_loc     0x00000000       0x20 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .debug_loc     0x00000020     0x9640 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_loc     0x00009660      0xdc8 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_loc     0x0000a428     0x1f13 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_aranges  0x00000000       0x88
+ .debug_aranges
+                0x00000000       0x20 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .debug_aranges
+                0x00000020       0x28 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_aranges
+                0x00000048       0x20 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_aranges
+                0x00000068       0x20 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_line     0x00000000     0x24a0
+ .debug_line    0x00000000      0x1cc /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .debug_line    0x000001cc     0x198d /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_line    0x00001b59      0x3ec /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_line    0x00001f45      0x55b /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_str      0x00000000     0x398c
+ .debug_str     0x00000000      0x60b /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+                                0x666 (size before relaxing)
+ .debug_str     0x0000060b     0x30f5 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+                               0x3788 (size before relaxing)
+ .debug_str     0x00003700      0x14f /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+                                0xf3f (size before relaxing)
+ .debug_str     0x0000384f      0x13d /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+                               0x127c (size before relaxing)
+
+.debug_frame    0x00000000      0x5c8
+ .debug_frame   0x00000000       0x30 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(startup-c.o)
+ .debug_frame   0x00000030      0x31c /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_frame   0x0000034c      0x104 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_frame   0x00000450      0x178 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)
+
+.debug_ranges   0x00000000     0x16f8
+ .debug_ranges  0x00000000     0x1070 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_main-c.o)
+ .debug_ranges  0x00001070       0x58 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_static-c.o)
+ .debug_ranges  0x000010c8      0x630 /home/lilei/NXP/S32DS.3.1/eclipse/../S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/isp/firmware/build-v234ce-gnu-linux-d/libsequencer.a(seq_int-c.o)

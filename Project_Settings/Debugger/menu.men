@@ -1,0 +1,8 @@
+add
+menu
+(
+  popup "APEX Debug Info"
+  (
+   menuitem "APU_FAST9COLOR" "intercom.execute localhost:10014 do ./Project_Settings/Debugger/APU_FAST9COLOR.cmm"
+  )
+)

@@ -1,0 +1,15 @@
+************************************************************************
+VIABLE SCENARIOS (1/1)
+************************************************************************
+NOTE: the CMEM and DMEM memory requirements listed below are approximations; if a viable scenario
+      is near or equal to the memory limits, there is a chance it will be deemed non-viable at run-time.
+
+SCENARIO [USER-SPECIFIED CHUNK SIZES]
+---> (CMEM: 2192/3840 DMEM: 32/96768)
+
+
+************************************************************************
+NON-VIABLE SCENARIOS (0/1)
+************************************************************************
+
+

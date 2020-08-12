@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.nxp.s32ds.debug.ide.s32debugger.core.s32DebuggerLaunchConfigurationType">
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.clientCommands" value="set endian little&#13;&#10;define hookpost-symbol-file&#13;&#10;apex dynamic-relocate&#13;&#10;end"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.core" value="APEX0 APU0"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.delayInMSeconds" value="0"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.device" value="S32V234"/>
+<booleanAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.doLaunchServer" value="true"/>
+<booleanAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.doResetAndDelay" value="false"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.hostnameOrIp" value=""/>
+<booleanAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.initialCore" value="true"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.initializationScriptPath" value="${S32DS_INITIALIZATION_SCRIPTS_DIR}/s32v234/s32v234_attach.py"/>
+<booleanAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.isSemihostingEnabled" value="true"/>
+<booleanAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.isServerLogEnabled" value="false"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.jtagSpeedKHz" value="16000"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.port" value=""/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.remoteTimeoutInSeconds" value="30"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.semihostingPort" value="45001"/>
+<stringAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.serverPortNumber" value="45000"/>
+<booleanAttribute key="com.nxp.s32ds.debug.ide.s32debugger.core.useEthernet" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.loadImage" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.setPcRegister" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.setResume" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.setStopAt" value="true"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.stopAt" value="FAST9COLOR"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="${S32DS_GDB_CLIENT_APEX_EXECUTABLE_PATH}"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="APU/FAST9COLOR.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Adas_ISP_Apex"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Adas_ISP_Apex"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.cdt.debug.core.sourceLocator"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;sourceLookupDirector&gt;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#10;&amp;lt;default/&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#10;&amp;lt;mapping backend_enabled=&amp;quot;true&amp;quot; name=&amp;quot;s32v234_sdk&amp;quot;&amp;gt;&amp;#10;&amp;lt;mapEntry memento=&amp;quot;&amp;amp;lt;?xml version=&amp;amp;quot;1.0&amp;amp;quot; encoding=&amp;amp;quot;UTF-8&amp;amp;quot; standalone=&amp;amp;quot;no&amp;amp;quot;?&amp;amp;gt;&amp;amp;#10;&amp;amp;lt;mapEntry backendPath=&amp;amp;quot;s32v234_sdk&amp;amp;quot; localPath=&amp;amp;quot;/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk&amp;amp;quot;/&amp;amp;gt;&amp;amp;#10;&amp;quot;/&amp;gt;&amp;#10;&amp;lt;mapEntry memento=&amp;quot;&amp;amp;lt;?xml version=&amp;amp;quot;1.0&amp;amp;quot; encoding=&amp;amp;quot;UTF-8&amp;amp;quot; standalone=&amp;amp;quot;no&amp;amp;quot;?&amp;amp;gt;&amp;amp;#10;&amp;amp;lt;mapEntry backendPath=&amp;amp;quot;s32v234_sdk\libs\apex\acf_target\build-apu-nxp-sa-d&amp;amp;quot; localPath=&amp;amp;quot;/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/acf_target/build-apu-nxp-sa-d&amp;amp;quot;/&amp;amp;gt;&amp;amp;#10;&amp;quot;/&amp;gt;&amp;#10;&amp;lt;mapEntry memento=&amp;quot;&amp;amp;lt;?xml version=&amp;amp;quot;1.0&amp;amp;quot; encoding=&amp;amp;quot;UTF-8&amp;amp;quot; standalone=&amp;amp;quot;no&amp;amp;quot;?&amp;amp;gt;&amp;amp;#10;&amp;amp;lt;mapEntry backendPath=&amp;amp;quot;s32v234_sdk\libs\apex\common\build-apu-nxp-sa-d&amp;amp;quot; localPath=&amp;amp;quot;/home/lilei/NXP/S32DS.3.1/S32DS/software/VSDK_S32V2_RTM_1_3_0/s32v234_sdk/libs/apex/common/build-apu-nxp-sa-d&amp;amp;quot;/&amp;amp;gt;&amp;amp;#10;&amp;quot;/&amp;gt;&amp;#10;&amp;lt;/mapping&amp;gt;&amp;#10;&quot; typeId=&quot;org.eclipse.cdt.debug.core.containerType.mapping&quot;/&gt;&#10;&lt;/sourceContainers&gt;&#10;&lt;/sourceLookupDirector&gt;&#10;"/>
+</launchConfiguration>

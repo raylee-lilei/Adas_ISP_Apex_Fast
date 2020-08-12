@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198" moduleId="org.eclipse.cdt.core.settings" name="A53">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.S32DSGNULinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="com.nxp.s32ds.cle.arm.mbs.arm64.linux.buildArtefact.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.nxp.s32ds.cle.arm.mbs.arm64.linux.buildArtefact.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198" name="A53" parent="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf" prebuildStep="$(MAKE) check_loadh; rm -f ../A53_gen/src/sequencer_srec.c; $(MAKE) -f ../Project_Settings/Scripts/seq.mk  TD=&quot;${S32DS_ARM32_TOOLCHAIN_DIR}&quot;  VD=&quot;${S32DS_VSDK_DIR}&quot;">
+					<folderInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198." name="/" resourcePath="">
+						<toolChain id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.toolchain.elf.1770805392" name="ARM Linux 64-bit Target Binary Toolchain" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.toolchain.elf">
+							<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.target.cpu.2130297587" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.target.cpu.cortexa53" valueType="enumerated"/>
+							<option defaultValue="true" id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.addtools.printsize.789684547" name="Print size" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.addtools.printsize" useByScannerDiscovery="false" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1322023400" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/Adas_ISP_Apex}/A53" id="com.freescale.s32ds.cross.gnu.builder.437609755" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.843198599" name="Standard S32DS C Compiler" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.449952517" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1930646728" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections.700763032" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections.1366664137" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format.593233891" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.option.target.cpu.787573851" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.nobuiltin.1396187521" name="Disable builtin (-fno-builtin)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.nobuiltin" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.warnings.other.1992801198" name="Other warning flags" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.warnings.other" useByScannerDiscovery="true" value="-Wno-narrowing" valueType="string"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.866764473" name="Pedantic (-pedantic)" superClass="gnu.c.compiler.option.warnings.pedantic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.paths.511480152" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_kernels&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_gen/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_gen/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/graphs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/kernels/apu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/platform/s32_v234&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/uartlinflex_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/framebuffer/user/include/linux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/image_camera_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/firmware/inc&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.349852661" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c99" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1527910543" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="GNUARM"/>
+									<listOptionValue builtIn="false" value="CV220X_"/>
+									<listOptionValue builtIn="false" value="__LINUX__"/>
+									<listOptionValue builtIn="false" value="OSDIR=linux"/>
+									<listOptionValue builtIn="false" value="ARM"/>
+									<listOptionValue builtIn="false" value="__arm__"/>
+									<listOptionValue builtIn="false" value="__ARMV8"/>
+									<listOptionValue builtIn="false" value="S32DS_BUILD"/>
+									<listOptionValue builtIn="false" value="VSDK_UMAT_USE_OPENCV"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.undef.symbol.906184460" name="Undefined symbols (-U)" superClass="gnu.c.compiler.option.preprocessor.undef.symbol" useByScannerDiscovery="false" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="linux"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.files.626304642" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1873479949" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.1125197624" name="Standard S32DS C++ Compiler" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.622760007" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.12233411" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections.2094325651" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections.586726792" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format.651811314" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.option.target.cpu.92892041" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.nobuiltin.773156377" name="Disable builtin (-fno-builtin)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.nobuiltin" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.warnings.other.1293822704" name="Other warning flags" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.warnings.other" useByScannerDiscovery="true" value="-Wno-narrowing" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.dialect.flags.565500201" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=gnu++11" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.warnings.pedantic.1608600927" name="Pedantic (-pedantic)" superClass="gnu.cpp.compiler.option.warnings.pedantic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.include.paths.321990874" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_kernels&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_gen/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_gen/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/graphs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_base/image_filters/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/graphs/ov10635_surround/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/kernels/apu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/platform/s32_v234&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/uartlinflex_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/framebuffer/user/include/linux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/image_camera_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/firmware/inc&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.2113621159" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="GNUARM"/>
+									<listOptionValue builtIn="false" value="CV220X_"/>
+									<listOptionValue builtIn="false" value="__LINUX__"/>
+									<listOptionValue builtIn="false" value="OSDIR=linux"/>
+									<listOptionValue builtIn="false" value="ARM"/>
+									<listOptionValue builtIn="false" value="__arm__"/>
+									<listOptionValue builtIn="false" value="__ARMV8"/>
+									<listOptionValue builtIn="false" value="S32DS_BUILD"/>
+									<listOptionValue builtIn="false" value="VSDK_UMAT_USE_OPENCV"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.36433599" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef" useByScannerDiscovery="false" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="linux"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.files.454853782" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.1439770530" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1508447964" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.1203810043" name="Standard S32DS C Linker" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections.322232713" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections" value="false" valueType="boolean"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.option.target.cpu.1797229182" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.option.target.cpu" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="gnu.c.link.option.libs.1502102759" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="rdimon"/>
+									<listOptionValue builtIn="false" value=":libopencv_calib3d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_core.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_features2d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_flann.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_highgui.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgcodecs.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgproc.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_ml.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_objdetect.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_photo.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_shape.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_stitching.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_superres.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_video.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videoio.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videostab.so"/>
+									<listOptionValue builtIn="false" value=":libavcodec.so"/>
+									<listOptionValue builtIn="false" value=":libavdevice.so"/>
+									<listOptionValue builtIn="false" value=":libavfilter.so"/>
+									<listOptionValue builtIn="false" value=":libavformat.so"/>
+									<listOptionValue builtIn="false" value=":libavutil.so"/>
+									<listOptionValue builtIn="false" value=":libswresample.so"/>
+									<listOptionValue builtIn="false" value=":libswscale.so"/>
+									<listOptionValue builtIn="false" value=":libcommon.a"/>
+									<listOptionValue builtIn="false" value=":libframe_io.a"/>
+									<listOptionValue builtIn="false" value=":liboal.a"/>
+									<listOptionValue builtIn="false" value=":libdcu.a"/>
+									<listOptionValue builtIn="false" value=":libumat.a"/>
+									<listOptionValue builtIn="false" value=":libsumat.a"/>
+									<listOptionValue builtIn="false" value=":lib_communications.a"/>
+									<listOptionValue builtIn="false" value=":libpthread.so"/>
+									<listOptionValue builtIn="false" value=":libm.a"/>
+									<listOptionValue builtIn="false" value=":liblog.a"/>
+									<listOptionValue builtIn="false" value=":libapexdrv.a"/>
+									<listOptionValue builtIn="false" value=":libacf.a"/>
+									<listOptionValue builtIn="false" value=":libicp.a"/>
+									<listOptionValue builtIn="false" value=":libsdi.a"/>
+									<listOptionValue builtIn="false" value=":libgdi.a"/>
+									<listOptionValue builtIn="false" value=":libcamdrv.a"/>
+									<listOptionValue builtIn="false" value=":libcsidrv.a"/>
+									<listOptionValue builtIn="false" value=":libfdmadrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264decdrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264encdrv.a"/>
+									<listOptionValue builtIn="false" value=":libjpegdecdrv.a"/>
+									<listOptionValue builtIn="false" value=":libseqdrv.a"/>
+									<listOptionValue builtIn="false" value=":libviudrv.a"/>
+									<listOptionValue builtIn="false" value=":libSemihost.a"/>
+								</option>
+								<option id="gnu.c.link.option.paths.2140041411" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ffmpeg/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/communications/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/log/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/semihost/build-v234ce-gnu-linux-d&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.582289039" name="Standard S32DS C++ Linker" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections.1919476510" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.option.target.cpu.1762095117" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="gnu.cpp.link.option.libs.313732074" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="apexdrv"/>
+									<listOptionValue builtIn="false" value="acf"/>
+									<listOptionValue builtIn="false" value="icp"/>
+									<listOptionValue builtIn="false" value=":h264encoder.a"/>
+									<listOptionValue builtIn="false" value=":apexcv_pro_canny.a"/>
+									<listOptionValue builtIn="false" value=":apexcv_pro_hog.a"/>
+									<listOptionValue builtIn="false" value=":apexcv_pro_histogram_equalization.a"/>
+									<listOptionValue builtIn="false" value=":apexcv_core.a"/>
+									<listOptionValue builtIn="false" value=":apexcv_image_filters.a"/>
+									<listOptionValue builtIn="false" value=":apexcv_color_conversion.a"/>
+									<listOptionValue builtIn="false" value="common"/>
+									<listOptionValue builtIn="false" value="frame_io"/>
+									<listOptionValue builtIn="false" value="oal"/>
+									<listOptionValue builtIn="false" value="dcu"/>
+									<listOptionValue builtIn="false" value=":libdynamic_ov10635_surround.a"/>
+									<listOptionValue builtIn="false" value="opencv_core"/>
+									<listOptionValue builtIn="false" value="umat"/>
+									<listOptionValue builtIn="false" value="opencv_imgproc"/>
+									<listOptionValue builtIn="false" value="_communications"/>
+									<listOptionValue builtIn="false" value="opencv_flann"/>
+									<listOptionValue builtIn="false" value="opencv_imgcodecs"/>
+									<listOptionValue builtIn="false" value="opencv_ml"/>
+									<listOptionValue builtIn="false" value="stdc++"/>
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" value="log"/>
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+									<listOptionValue builtIn="false" value=":libopencv_calib3d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_core.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_features2d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_flann.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_highgui.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgcodecs.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgproc.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_ml.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_objdetect.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_photo.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_shape.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_stitching.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_superres.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_video.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videoio.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videostab.so"/>
+									<listOptionValue builtIn="false" value=":libavcodec.so"/>
+									<listOptionValue builtIn="false" value=":libavdevice.so"/>
+									<listOptionValue builtIn="false" value=":libavfilter.so"/>
+									<listOptionValue builtIn="false" value=":libavformat.so"/>
+									<listOptionValue builtIn="false" value=":libavutil.so"/>
+									<listOptionValue builtIn="false" value=":libswresample.so"/>
+									<listOptionValue builtIn="false" value=":libswscale.so"/>
+									<listOptionValue builtIn="false" value=":libcommon.a"/>
+									<listOptionValue builtIn="false" value=":libframe_io.a"/>
+									<listOptionValue builtIn="false" value=":liboal.a"/>
+									<listOptionValue builtIn="false" value=":libdcu.a"/>
+									<listOptionValue builtIn="false" value=":libumat.a"/>
+									<listOptionValue builtIn="false" value=":libsumat.a"/>
+									<listOptionValue builtIn="false" value=":lib_communications.a"/>
+									<listOptionValue builtIn="false" value=":libpthread.so"/>
+									<listOptionValue builtIn="false" value=":libm.a"/>
+									<listOptionValue builtIn="false" value=":liblog.a"/>
+									<listOptionValue builtIn="false" value=":libapexdrv.a"/>
+									<listOptionValue builtIn="false" value=":libacf.a"/>
+									<listOptionValue builtIn="false" value=":libicp.a"/>
+									<listOptionValue builtIn="false" value=":libsdi.a"/>
+									<listOptionValue builtIn="false" value=":libgdi.a"/>
+									<listOptionValue builtIn="false" value=":libcamdrv.a"/>
+									<listOptionValue builtIn="false" value=":libcsidrv.a"/>
+									<listOptionValue builtIn="false" value=":libfdmadrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264decdrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264encdrv.a"/>
+									<listOptionValue builtIn="false" value=":libjpegdecdrv.a"/>
+									<listOptionValue builtIn="false" value=":libseqdrv.a"/>
+									<listOptionValue builtIn="false" value=":libviudrv.a"/>
+									<listOptionValue builtIn="false" value=":libSemihost.a"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.1483515261" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="-Wl,--start-group" valueType="string"/>
+								<option id="gnu.cpp.link.option.paths.1259833997" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_pro/hog/apu-nxp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_base/image_filters/apu-nxp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_base/apexcv_core/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_pro/canny/apu-nxp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_pro/histogram_equalization/apu-nxp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/demos/isp/WPI_isp_ov10635_single_view/ov10635_lib/libs/io/dcu/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/graphs/ov10635_surround/dynamic_ov10635_surround/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apexcv_base/color_conversion/apu-nxp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/h264encoder/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ffmpeg/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/communications/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/log/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/semihost/build-v234ce-gnu-linux-d&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.384374751" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.archiver.2122131923" name="Standard S32DS Archiver" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.archiver"/>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.1797918700" name="Standard S32DS Assembler" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler">
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor.1700914898" name="Use preprocessor" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level.2024750082" name="Debug Level" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.option.target.cpu.625281541" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs.1751034878" name="Defined symbols (-D)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="GNUARM"/>
+									<listOptionValue builtIn="false" value="CV220X_"/>
+									<listOptionValue builtIn="false" value="__LINUX__"/>
+									<listOptionValue builtIn="false" value="OSDIR=linux"/>
+									<listOptionValue builtIn="false" value="ARM"/>
+									<listOptionValue builtIn="false" value="__arm__"/>
+									<listOptionValue builtIn="false" value="__ARMV8"/>
+									<listOptionValue builtIn="false" value="S32DS_BUILD"/>
+									<listOptionValue builtIn="false" value="VSDK_UMAT_USE_OPENCV"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.undefs.1959572984" name="Undefined symbols (-U)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.undefs" useByScannerDiscovery="false" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="linux"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1251510331" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile.1961591150" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.createflash.1610275582" name="Standard S32DS Create Flash Image" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.createflash"/>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.createlisting.1248522143" name="Standard S32DS Create Listing" superClass="com.freescale.s32ds.cross.gnu.tool.createlisting">
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.source.456639193" name="Display source (--source|-S)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders.1105086539" name="Display all headers (--all-headers|-x)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.demangle.1219729202" name="Demangle names (--demangle|-C)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers.102933047" name="Display line numbers (--line-numbers|-l)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.wide.1326878940" name="Wide lines (--wide|-w)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.printsize.1315362130" name="Standard S32DS Print Size" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.printsize">
+								<option id="com.freescale.s32ds.cross.gnu.option.printsize.format.1922827158" name="Size format" superClass="com.freescale.s32ds.cross.gnu.option.printsize.format" useByScannerDiscovery="false"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.1138648268" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.1855699732" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.disassembler.152773825" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.A53_gen/inc" name="inc" rcbsApplicability="disable" resourcePath="A53_gen/inc" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.graphs" name="graphs" rcbsApplicability="disable" resourcePath="graphs" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.APU_gen" name="APU_gen" rcbsApplicability="disable" resourcePath="APU_gen" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.APU_kernels" name="APU_kernels" rcbsApplicability="disable" resourcePath="APU_kernels" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.ISP_kernels" name="ISP_kernels" rcbsApplicability="disable" resourcePath="ISP_kernels" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.A53_test" name="A53_test" rcbsApplicability="disable" resourcePath="A53_test" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.A53_inc" name="A53_inc" rcbsApplicability="disable" resourcePath="A53_inc" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.Project_Settings" name="Project_Settings" rcbsApplicability="disable" resourcePath="Project_Settings" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding="src/isp_process.cpp|inc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A53_gen"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A53_src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="Adas_ISP_Apex;com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095" moduleId="org.eclipse.cdt.core.settings" name="TEST_A53">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.S32DSGNULinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="com.nxp.s32ds.cle.arm.mbs.arm64.linux.buildArtefact.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.nxp.s32ds.cle.arm.mbs.arm64.linux.buildArtefact.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095" name="TEST_A53" parent="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf" prebuildStep="$(MAKE) check_loadh; rm -f ../A53_gen/src/sequencer_srec.c; $(MAKE) -f ../Project_Settings/Scripts/seq.mk  TD=&quot;${S32DS_ARM32_TOOLCHAIN_DIR}&quot;  VD=&quot;${S32DS_VSDK_DIR}&quot;">
+					<folderInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095." name="/" resourcePath="">
+						<toolChain id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.toolchain.run.test.elf.349211836" name="ARM Linux 64-bit Target Binary Toolchain" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.toolchain.run.test.elf">
+							<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.target.cpu.1403584795" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.target.cpu" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.target.cpu.cortexa53" valueType="enumerated"/>
+							<option defaultValue="true" id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.addtools.printsize.2139142703" name="Print size" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.option.addtools.printsize" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.PE" id="cdt.managedbuild.targetPlatform.gnu.cross.877328718" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/Adas_ISP_Apex}/TEST_A53" id="com.freescale.s32ds.cross.gnu.builder.339695456" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.1145802199" name="Standard S32DS C Compiler" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.667246295" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1555192353" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections.1437303748" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections.1958337143" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format.104776199" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.option.target.cpu.363152243" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.nobuiltin.1310117224" name="Disable builtin (-fno-builtin)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.nobuiltin" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.pedantic.939282580" name="Pedantic (-pedantic)" superClass="gnu.c.compiler.option.warnings.pedantic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.warnings.other.705583260" name="Other warning flags" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.warnings.other" useByScannerDiscovery="true" value="-Wno-narrowing" valueType="string"/>
+								<option id="gnu.c.compiler.option.include.paths.2125392662" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_kernels&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_gen/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_gen/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_test/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/graphs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/kernels/apu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/platform/s32_v234&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/uartlinflex_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/framebuffer/user/include/linux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/image_camera_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/firmware/inc&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.660508603" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.c99" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1835833706" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="GNUARM"/>
+									<listOptionValue builtIn="false" value="CV220X_"/>
+									<listOptionValue builtIn="false" value="__LINUX__"/>
+									<listOptionValue builtIn="false" value="OSDIR=linux"/>
+									<listOptionValue builtIn="false" value="ARM"/>
+									<listOptionValue builtIn="false" value="__arm__"/>
+									<listOptionValue builtIn="false" value="__ARMV8"/>
+									<listOptionValue builtIn="false" value="S32DS_BUILD"/>
+									<listOptionValue builtIn="false" value="VSDK_UMAT_USE_OPENCV"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.undef.symbol.1714690115" name="Undefined symbols (-U)" superClass="gnu.c.compiler.option.preprocessor.undef.symbol" useByScannerDiscovery="false" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="linux"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1036343289" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.325046005" name="Standard S32DS C++ Compiler" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1863195619" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1062624569" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections.1975515404" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections.140521025" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format.1313751676" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.option.target.cpu.971283568" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.option.target.cpu" useByScannerDiscovery="false" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.nobuiltin.1321624308" name="Disable builtin (-fno-builtin)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.nobuiltin" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.warnings.pedantic.1048057380" name="Pedantic (-pedantic)" superClass="gnu.cpp.compiler.option.warnings.pedantic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.warnings.other.1769540321" name="Other warning flags" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.warnings.other" useByScannerDiscovery="true" value="-Wno-narrowing" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.dialect.flags.1483968489" name="Other dialect flags" superClass="gnu.cpp.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=gnu++11" valueType="string"/>
+								<option id="gnu.cpp.compiler.option.include.paths.2106321953" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_kernels&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_gen/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_gen/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/A53_test/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/graphs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/kernels/apu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/platform/s32_v234&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/kernel/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/uartlinflex_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/framebuffer/user/include/linux&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/image_camera_io/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/isp/firmware/inc&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.314219442" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="GNUARM"/>
+									<listOptionValue builtIn="false" value="CV220X_"/>
+									<listOptionValue builtIn="false" value="__LINUX__"/>
+									<listOptionValue builtIn="false" value="OSDIR=linux"/>
+									<listOptionValue builtIn="false" value="ARM"/>
+									<listOptionValue builtIn="false" value="__arm__"/>
+									<listOptionValue builtIn="false" value="__ARMV8"/>
+									<listOptionValue builtIn="false" value="S32DS_BUILD"/>
+									<listOptionValue builtIn="false" value="VSDK_UMAT_USE_OPENCV"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.1744152710" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef" useByScannerDiscovery="false" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="linux"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.928995201" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.307640707" name="Standard S32DS C Linker" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections.148652649" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections" value="false" valueType="boolean"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.option.target.cpu.269942739" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.option.target.cpu" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.linker.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="gnu.c.link.option.libs.390629462" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="rdimon"/>
+									<listOptionValue builtIn="false" value=":libopencv_calib3d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_core.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_features2d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_flann.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_highgui.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgcodecs.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgproc.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_ml.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_objdetect.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_photo.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_shape.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_stitching.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_superres.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_video.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videoio.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videostab.so"/>
+									<listOptionValue builtIn="false" value=":libavcodec.so"/>
+									<listOptionValue builtIn="false" value=":libavdevice.so"/>
+									<listOptionValue builtIn="false" value=":libavfilter.so"/>
+									<listOptionValue builtIn="false" value=":libavformat.so"/>
+									<listOptionValue builtIn="false" value=":libavutil.so"/>
+									<listOptionValue builtIn="false" value=":libswresample.so"/>
+									<listOptionValue builtIn="false" value=":libswscale.so"/>
+									<listOptionValue builtIn="false" value=":libcommon.a"/>
+									<listOptionValue builtIn="false" value=":libframe_io.a"/>
+									<listOptionValue builtIn="false" value=":liboal.a"/>
+									<listOptionValue builtIn="false" value=":libdcu.a"/>
+									<listOptionValue builtIn="false" value=":libumat.a"/>
+									<listOptionValue builtIn="false" value=":libsumat.a"/>
+									<listOptionValue builtIn="false" value=":lib_communications.a"/>
+									<listOptionValue builtIn="false" value=":libpthread.so"/>
+									<listOptionValue builtIn="false" value=":libm.a"/>
+									<listOptionValue builtIn="false" value=":liblog.a"/>
+									<listOptionValue builtIn="false" value=":libapexdrv.a"/>
+									<listOptionValue builtIn="false" value=":libacf.a"/>
+									<listOptionValue builtIn="false" value=":libicp.a"/>
+									<listOptionValue builtIn="false" value=":libsdi.a"/>
+									<listOptionValue builtIn="false" value=":libgdi.a"/>
+									<listOptionValue builtIn="false" value=":libcamdrv.a"/>
+									<listOptionValue builtIn="false" value=":libcsidrv.a"/>
+									<listOptionValue builtIn="false" value=":libfdmadrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264decdrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264encdrv.a"/>
+									<listOptionValue builtIn="false" value=":libjpegdecdrv.a"/>
+									<listOptionValue builtIn="false" value=":libseqdrv.a"/>
+									<listOptionValue builtIn="false" value=":libviudrv.a"/>
+									<listOptionValue builtIn="false" value=":libSemihost.a"/>
+								</option>
+								<option id="gnu.c.link.option.paths.1795285307" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ffmpeg/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/communications/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/log/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/semihost/build-v234ce-gnu-linux-d&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.872567357" name="Standard S32DS C++ Linker" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections.924530571" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections" value="false" valueType="boolean"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.option.target.cpu.1479609650" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.option.target.cpu" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.linker.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="gnu.cpp.link.option.libs.1517777090" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="stdc++"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+									<listOptionValue builtIn="false" value=":libopencv_calib3d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_core.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_features2d.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_flann.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_highgui.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgcodecs.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_imgproc.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_ml.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_objdetect.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_photo.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_shape.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_stitching.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_superres.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_video.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videoio.so"/>
+									<listOptionValue builtIn="false" value=":libopencv_videostab.so"/>
+									<listOptionValue builtIn="false" value=":libavcodec.so"/>
+									<listOptionValue builtIn="false" value=":libavdevice.so"/>
+									<listOptionValue builtIn="false" value=":libavfilter.so"/>
+									<listOptionValue builtIn="false" value=":libavformat.so"/>
+									<listOptionValue builtIn="false" value=":libavutil.so"/>
+									<listOptionValue builtIn="false" value=":libswresample.so"/>
+									<listOptionValue builtIn="false" value=":libswscale.so"/>
+									<listOptionValue builtIn="false" value=":libcommon.a"/>
+									<listOptionValue builtIn="false" value=":libframe_io.a"/>
+									<listOptionValue builtIn="false" value=":liboal.a"/>
+									<listOptionValue builtIn="false" value=":libdcu.a"/>
+									<listOptionValue builtIn="false" value=":libumat.a"/>
+									<listOptionValue builtIn="false" value=":libsumat.a"/>
+									<listOptionValue builtIn="false" value=":lib_communications.a"/>
+									<listOptionValue builtIn="false" value=":libpthread.so"/>
+									<listOptionValue builtIn="false" value=":libm.a"/>
+									<listOptionValue builtIn="false" value=":liblog.a"/>
+									<listOptionValue builtIn="false" value=":libapexdrv.a"/>
+									<listOptionValue builtIn="false" value=":libacf.a"/>
+									<listOptionValue builtIn="false" value=":libicp.a"/>
+									<listOptionValue builtIn="false" value=":libsdi.a"/>
+									<listOptionValue builtIn="false" value=":libgdi.a"/>
+									<listOptionValue builtIn="false" value=":libcamdrv.a"/>
+									<listOptionValue builtIn="false" value=":libcsidrv.a"/>
+									<listOptionValue builtIn="false" value=":libfdmadrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264decdrv.a"/>
+									<listOptionValue builtIn="false" value=":libh264encdrv.a"/>
+									<listOptionValue builtIn="false" value=":libjpegdecdrv.a"/>
+									<listOptionValue builtIn="false" value=":libseqdrv.a"/>
+									<listOptionValue builtIn="false" value=":libviudrv.a"/>
+									<listOptionValue builtIn="false" value=":libSemihost.a"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.2013113321" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-Wl,--start-group" valueType="string"/>
+								<option id="gnu.cpp.link.option.paths.599385591" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ocv/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${OPENCV_A53_LINUX_1.3.0_PATH}/ffmpeg/linux-arm64/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/common/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/frame_io/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/oal/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/dcu/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/umat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/sumat/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/communications/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/utils/log/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/drivers/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/acf/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/apex/icp/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/sdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/gdi/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/cam_generic/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/csi/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/fdma/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264dec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/h264enc/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/jpegdec/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/sequencer/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/isp/viu/user/build-v234ce-gnu-linux-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_A53_LINUX_1.3.0_PATH}/libs/io/semihost/build-v234ce-gnu-linux-d&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1837552489" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.archiver.2096214338" name="Standard S32DS Archiver" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.archiver"/>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.1501461335" name="Standard S32DS Assembler" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler">
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor.178454354" name="Use preprocessor" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level.683364002" name="Debug Level" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.option.target.cpu.670134323" name="Target processor" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.option.target.cpu" value="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.assembler.option.target.cpu.cortexa53" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs.1344020872" name="Defined symbols (-D)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="GNUARM"/>
+									<listOptionValue builtIn="false" value="CV220X_"/>
+									<listOptionValue builtIn="false" value="__LINUX__"/>
+									<listOptionValue builtIn="false" value="OSDIR=linux"/>
+									<listOptionValue builtIn="false" value="ARM"/>
+									<listOptionValue builtIn="false" value="__arm__"/>
+									<listOptionValue builtIn="false" value="__ARMV8"/>
+									<listOptionValue builtIn="false" value="S32DS_BUILD"/>
+									<listOptionValue builtIn="false" value="VSDK_UMAT_USE_OPENCV"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.undefs.2057681478" name="Undefined symbols (-U)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.undefs" valueType="undefDefinedSymbols">
+									<listOptionValue builtIn="false" value="linux"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1969134614" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile.2048441164" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.createflash.1516359977" name="Standard S32DS Create Flash Image" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.createflash"/>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.createlisting.1370842324" name="Standard S32DS Create Listing" superClass="com.freescale.s32ds.cross.gnu.tool.createlisting">
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.source.1234362141" name="Display source (--source|-S)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders.62453447" name="Display all headers (--all-headers|-x)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.demangle.1353688480" name="Demangle names (--demangle|-C)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers.1816239648" name="Display line numbers (--line-numbers|-l)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.wide.1360765252" name="Wide lines (--wide|-w)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.printsize.528825087" name="Standard S32DS Print Size" superClass="com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.printsize">
+								<option id="com.freescale.s32ds.cross.gnu.option.printsize.format.4814399" name="Size format" superClass="com.freescale.s32ds.cross.gnu.option.printsize.format"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.1950758794" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.1241464632" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.disassembler.1722841853" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.A53_gen/inc" name="inc" rcbsApplicability="disable" resourcePath="A53_gen/inc" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.graphs" name="graphs" rcbsApplicability="disable" resourcePath="graphs" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.APU_gen" name="APU_gen" rcbsApplicability="disable" resourcePath="APU_gen" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.A53_src" name="A53_src" rcbsApplicability="disable" resourcePath="A53_src" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.APU_kernels" name="APU_kernels" rcbsApplicability="disable" resourcePath="APU_kernels" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.ISP_kernels" name="ISP_kernels" rcbsApplicability="disable" resourcePath="ISP_kernels" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.A53_test/inc" name="inc" rcbsApplicability="disable" resourcePath="A53_test/inc" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.A53_inc" name="A53_inc" rcbsApplicability="disable" resourcePath="A53_inc" toolsToInvoke=""/>
+					<fileInfo id="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.Project_Settings" name="Project_Settings" rcbsApplicability="disable" resourcePath="Project_Settings" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding="src/acf_host.cpp|inc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A53_gen"/>
+						<entry excluding="inc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="A53_test"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="Adas_ISP_Apex;com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977" moduleId="org.eclipse.cdt.core.settings" name="APU">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.S32DSGNULinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="$(TARGETS)" buildArtefactType="com.freescale.s32ds.vision.apex.buildArtefact.target" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.freescale.s32ds.vision.apex.buildArtefact.target,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${apu_rm}" description="" id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977" name="APU" parent="com.freescale.s32ds.vision.linux.arm64.apu.elf">
+					<folderInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977." name="/" resourcePath="">
+						<toolChain id="com.freescale.s32ds.vision.linux.apex.target.toolChain.arm64.elf.688813223" name="Standard S32DS toolchain for APU targets" superClass="com.freescale.s32ds.vision.linux.apex.target.toolChain.arm64.elf">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.588977070" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/Adas_ISP_Apex}/APU" id="com.freescale.s32ds.vision.apex.builder.target.251152190" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder for APU targets" superClass="com.freescale.s32ds.vision.apex.builder.target"/>
+							<tool id="com.freescale.s32ds.vision.apex.tool.c.compiler.2022930579" name="APU C Compiler" superClass="com.freescale.s32ds.vision.apex.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="com.freescale.s32ds.vision.apex.tool.c.compiler.option.optimization.level.499473850" name="Optimization Level" superClass="com.freescale.s32ds.vision.apex.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.freescale.s32ds.vision.apex.tool.c.compiler.option.optimization.level.all" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1584409778" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1187310974" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_kernels&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/kernels/apu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/icp/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_offline/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/drivers/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/register_maps/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_target/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/utils/common/include&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.files.336994085" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_offline/include/apu2_kernel_port.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_target/include/acf_autokernel_inc.h&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.298023498" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CGV_FORCE_INLINE"/>
+									<listOptionValue builtIn="false" value="ACF_KERNEL_IMPLEMENTATION"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.504258816" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.apex.tool.cpp.compiler.679915666" name="APU C++ Compiler" superClass="com.freescale.s32ds.vision.apex.tool.cpp.compiler">
+								<option id="com.freescale.s32ds.vision.apex.tool.cpp.compiler.option.optimization.level.323581243" name="Optimization Level" superClass="com.freescale.s32ds.vision.apex.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.freescale.s32ds.vision.apex.tool.cpp.compiler.option.optimization.level.all" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1097891744" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1628959363" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/APU_kernels&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/kernels/apu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/icp/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_offline/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/drivers/user/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/register_maps/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_target/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/utils/common/include&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.files.1103925558" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_offline/include/apu2_kernel_port.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_target/include/acf_autokernel_inc.h&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1295624331" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CGV_FORCE_INLINE"/>
+									<listOptionValue builtIn="false" value="ACF_KERNEL_IMPLEMENTATION"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.706319880" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.apex.tool.c.linker.1373139053" name="APU C Linker" superClass="com.freescale.s32ds.vision.apex.tool.c.linker">
+								<option id="gnu.c.link.option.libs.1763461409" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value=":libacf_target.a"/>
+									<listOptionValue builtIn="false" value=":libapu_common.a"/>
+									<listOptionValue builtIn="false" value=":libstartcpp.a"/>
+									<listOptionValue builtIn="false" value=":libc.a"/>
+									<listOptionValue builtIn="false" value=":libm.a"/>
+									<listOptionValue builtIn="false" value=":libhosted.a"/>
+									<listOptionValue builtIn="false" value=":librt.a"/>
+								</option>
+								<option id="gnu.c.link.option.paths.98738659" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_target/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/common/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APUC_4.0.1_PATH}/&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.apex.tool.cpp.linker.1917586893" name="APU C++ Linker" superClass="com.freescale.s32ds.vision.apex.tool.cpp.linker">
+								<option id="gnu.cpp.link.option.libs.454024930" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}:filtering_kernels.a"/>
+									<listOptionValue builtIn="false" value="${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}:feature_detection_kernels.a"/>
+									<listOptionValue builtIn="false" value="${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}:display_kernels.a"/>
+									<listOptionValue builtIn="false" value="${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}:conversion_kernels.a"/>
+									<listOptionValue builtIn="false" value="${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}:morphology_kernels.a"/>
+									<listOptionValue builtIn="false" value=":libacf_target.a"/>
+									<listOptionValue builtIn="false" value=":libapu_common.a"/>
+									<listOptionValue builtIn="false" value=":libstartcpp.a"/>
+									<listOptionValue builtIn="false" value=":libc.a"/>
+									<listOptionValue builtIn="false" value=":libm.a"/>
+									<listOptionValue builtIn="false" value=":libhosted.a"/>
+									<listOptionValue builtIn="false" value=":librt.a"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.1919877348" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}${S32DS_VSDK_DIR}/kernels/apu/sample_filtering_kernels/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}${S32DS_VSDK_DIR}/kernels/apu/sample_feature_detection_kernels/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}${S32DS_VSDK_DIR}/kernels/apu/sample_display_kernels/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}${S32DS_VSDK_DIR}/kernels/apu/sample_conversion_kernels/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${S32DS_apex_kernel_library}${S32DS_apex2_fast9_icp_design}${S32DS_Fast9Color}${S32DS_VSDK_DIR}/kernels/apu/sample_morphology_kernels/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/acf_target/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VSDK_APU_1.3.0_PATH}/libs/apex/common/build-apu-nxp-sa-d&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APUC_4.0.1_PATH}/&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.vision.apex.tool.cpp.linker.option.scriptFile.1476977077" name="Script files (-T)" superClass="com.freescale.s32ds.vision.apex.tool.cpp.linker.option.scriptFile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/S32V_APEX.lcf&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.apex.tool.archiver.1036783920" name="APU Archiver" superClass="com.freescale.s32ds.vision.apex.tool.archiver"/>
+							<tool id="com.freescale.s32ds.vision.apex.tool.assembler.1661368579" name="APU Assembler" superClass="com.freescale.s32ds.vision.apex.tool.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.158901744" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.apex.tool.c.preprocessor.1247261749" name="APU C Preprocessor" superClass="com.freescale.s32ds.vision.apex.tool.c.preprocessor"/>
+							<tool id="com.freescale.s32ds.vision.apex.tool.cpp.preprocessor.1940717556" name="APU C++ Preprocessor" superClass="com.freescale.s32ds.vision.apex.tool.cpp.preprocessor"/>
+							<tool id="com.freescale.s32ds.vision.apex.tool.disassembler.1098809524" name="APU Disassembler" superClass="com.freescale.s32ds.vision.apex.tool.disassembler"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.A53_gen" name="A53_gen" rcbsApplicability="disable" resourcePath="A53_gen" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.graphs" name="graphs" rcbsApplicability="disable" resourcePath="graphs" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.A53_src" name="A53_src" rcbsApplicability="disable" resourcePath="A53_src" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.ISP_kernels" name="ISP_kernels" rcbsApplicability="disable" resourcePath="ISP_kernels" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.A53_test" name="A53_test" rcbsApplicability="disable" resourcePath="A53_test" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.A53_inc" name="A53_inc" rcbsApplicability="disable" resourcePath="A53_inc" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.Project_Settings" name="Project_Settings" rcbsApplicability="disable" resourcePath="Project_Settings" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="APU_gen"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="APU_kernels"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="Adas_ISP_Apex;com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990" moduleId="org.eclipse.cdt.core.settings" name="ISP">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}_ISP" buildArtefactType="com.freescale.s32ds.vision.isp.buildArtefact.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.freescale.s32ds.vision.isp.buildArtefact.elf,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${isp_rm}" description="" id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990" name="ISP" parent="com.freescale.s32ds.vision.linux.arm64.isp.elf" postbuildStep="$(MAKE) -f ../Project_Settings/Scripts/isp_kmem.mk ProjName=${ProjName}" prebuildStep="rm -f ../A53_gen/inc/kmem_sym.h ../A53_gen/src/kmem.c ../ISP/*.elf">
+					<folderInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990." name="/" resourcePath="">
+						<toolChain id="com.freescale.s32ds.vision.linux.isp.toolChain.arm64.elf.1142681833" name="Standard S32DS toolchain for ISP" superClass="com.freescale.s32ds.vision.linux.isp.toolChain.arm64.elf">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1311994161" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/Adas_ISP_Apex}/ISP" id="com.freescale.s32ds.vision.isp.builder.1302272091" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder for ISP" superClass="com.freescale.s32ds.vision.isp.builder"/>
+							<tool command="arm-none-eabi-gcc" id="com.freescale.s32ds.vision.isp.tool.c.compiler.1906885009" name="S32V ISP C Compiler" superClass="com.freescale.s32ds.vision.isp.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.577176861" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.2022148322" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool command="arm-none-eabi-g++" id="com.freescale.s32ds.vision.isp.tool.cpp.compiler.298066927" name="S32V ISP C++ Compiler" superClass="com.freescale.s32ds.vision.isp.tool.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.870650239" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1366748219" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.isp.tool.c.linker.1382963461" name="S32V ISP C Linker" superClass="com.freescale.s32ds.vision.isp.tool.c.linker">
+								<option id="gnu.c.link.option.ldflags.165398991" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="--accept-unknown-input-arch -Map ${BuildArtifactFileBaseName}.map" valueType="string"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.isp.tool.cpp.linker.617327136" name="S32V ISP C++ Linker" superClass="com.freescale.s32ds.vision.isp.tool.cpp.linker">
+								<option id="com.freescale.s32ds.vision.isp.tool.cpp.linker.option.scriptFile.278707885" name="Script Files (-T)" superClass="com.freescale.s32ds.vision.isp.tool.cpp.linker.option.scriptFile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/S32V_ISP.ld&quot;"/>
+								</option>
+								<option id="gnu.cpp.link.option.flags.1604571499" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="--accept-unknown-input-arch -Map ${BuildArtifactFileBaseName}.map" valueType="string"/>
+								<inputType id="com.freescale.s32ds.vision.isp.tool.cpp.linker.inputType.oipusFile.1751298106" superClass="com.freescale.s32ds.vision.isp.tool.cpp.linker.inputType.oipusFile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.isp.tool.archiver.1728818929" name="S32V ISP Archiver" superClass="com.freescale.s32ds.vision.isp.tool.archiver"/>
+							<tool id="com.freescale.s32ds.vision.isp.tool.ipus.assembler.1195242867" name="S32V IPUS Assembler" superClass="com.freescale.s32ds.vision.isp.tool.ipus.assembler">
+								<option id="gnu.both.asm.option.flags.1780480029" name="Assembler flags" superClass="gnu.both.asm.option.flags" value="-g" valueType="string"/>
+								<inputType id="com.freescale.s32ds.vision.isp.tool.ipus.assembler.inputType.ipusFile.1735927453" superClass="com.freescale.s32ds.vision.isp.tool.ipus.assembler.inputType.ipusFile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.isp.tool.ipus.disassembler.858931530" name="S32V IPUS Disassembler" superClass="com.freescale.s32ds.vision.isp.tool.ipus.disassembler"/>
+							<tool id="com.freescale.s32ds.vision.isp.tool.ipuv.assembler.179809835" name="S32V IPUV Assembler" superClass="com.freescale.s32ds.vision.isp.tool.ipuv.assembler">
+								<option id="gnu.both.asm.option.flags.1410078523" name="Assembler flags" superClass="gnu.both.asm.option.flags" value="-g" valueType="string"/>
+								<inputType id="com.freescale.s32ds.vision.isp.tool.ipuv.assembler.inputType.ipuvFile.204694430" superClass="com.freescale.s32ds.vision.isp.tool.ipuv.assembler.inputType.ipuvFile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.vision.isp.tool.ipuv.disassembler.1430441728" name="S32V IPUV Disassembler" superClass="com.freescale.s32ds.vision.isp.tool.ipuv.disassembler"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.A53_gen" name="A53_gen" rcbsApplicability="disable" resourcePath="A53_gen" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.graphs" name="graphs" rcbsApplicability="disable" resourcePath="graphs" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.APU_gen" name="APU_gen" rcbsApplicability="disable" resourcePath="APU_gen" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.A53_src" name="A53_src" rcbsApplicability="disable" resourcePath="A53_src" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.APU_kernels" name="APU_kernels" rcbsApplicability="disable" resourcePath="APU_kernels" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.A53_test" name="A53_test" rcbsApplicability="disable" resourcePath="A53_test" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.A53_inc" name="A53_inc" rcbsApplicability="disable" resourcePath="A53_inc" toolsToInvoke=""/>
+					<fileInfo id="com.freescale.s32ds.vision.linux.arm64.isp.elf.2088839990.Project_Settings" name="Project_Settings" rcbsApplicability="disable" resourcePath="Project_Settings" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ISP_kernels"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Adas_ISP_Apex.com.nxp.s32ds.cle.arm.mbs.arm64.linux.apu.isp.elf.1149204540" name="ARM64 Linux Executable with APU and ISP" projectType="com.nxp.s32ds.cle.arm.mbs.arm64.linux.apu.isp.elf"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="APU">
+			<resource resourceType="PROJECT" workspacePath="/Adas_ISP_Apex"/>
+		</configuration>
+		<configuration configurationName="ISP">
+			<resource resourceType="PROJECT" workspacePath="/Adas_ISP_Apex"/>
+		</configuration>
+		<configuration configurationName="TEST_A53">
+			<resource resourceType="PROJECT" workspacePath="/Adas_ISP_Apex"/>
+		</configuration>
+		<configuration configurationName="A53">
+			<resource resourceType="PROJECT" workspacePath="/Adas_ISP_Apex"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.embsys" parent_project="true" register_architecture="S32V" register_board="---  none ---" register_chip="S32V234" register_core="" register_vendor="Freescale"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977;com.freescale.s32ds.vision.linux.arm64.apu.elf.1617673977.;com.freescale.s32ds.vision.apex.tool.c.compiler.2022930579;cdt.managedbuild.tool.gnu.c.compiler.input.504258816">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198;com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.;com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.cpp.compiler.1125197624;cdt.managedbuild.tool.gnu.cpp.compiler.input.1508447964">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198;com.nxp.s32ds.cle.arm.mbs.arm64.linux.elf.285501198.;com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.843198599;cdt.managedbuild.tool.gnu.c.compiler.input.1873479949">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095;com.nxp.s32ds.cle.arm.mbs.arm64.linux.test.elf.1853345095.;com.nxp.s32ds.cle.arm.mbs.arm64.linux.tool.c.compiler.1145802199;cdt.managedbuild.tool.gnu.c.compiler.input.1036343289">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.nxp.s32ds.mdt.vpt.apex2.core.apex2Emit">
+<booleanAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.emit_graph" value="true"/>
+<booleanAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.emit_host" value="true"/>
+<booleanAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.emit_kernel" value="true"/>
+<booleanAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.emit_test" value="false"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.graph_dir" value="graphs"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.host_dir" value="A53_gen"/>
+<booleanAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.ignoreValidationResult" value="true"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.kernel_dir" value="APU_kernels"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.output_path" value="${workspace_loc:/Adas_ISP_Apex}"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.source_path" value="/apex2_fast9_icp_design/model/apex2_fast9.apuprogram"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.source_type" value="PROGRAM"/>
+<stringAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.test_dir" value="A53_test"/>
+<booleanAttribute key="com.nxp.s32ds.mdt.vpt.apex2.core.validate" value="false"/>
+</launchConfiguration>

@@ -1,0 +1,2 @@
+com.freescale.s32ds.cross.sdk.support.attachedSDKs=VSDK_MODULE_LINUX_1.3.0_PATH|A53|TEST_A53|APU\:OPENCV_A53_LINUX_1.3.0_PATH|A53|TEST_A53\:VSDK_A53_LINUX_1.3.0_PATH|A53|TEST_A53\:VSDK_APU_1.3.0_PATH|APU\:APUC_4.0.1_PATH|APU
+eclipse.preferences.version=1

@@ -1,0 +1,17 @@
+core=S32V_CortexA53_Apex_Linux_A53_1
+coreType=S32V_CortexA53_Apex_Linux
+eclipse.preferences.version=1
+flashSize=0
+flashStart=0
+fpu=None
+instrmode=
+io=
+language=c++
+library=
+pinSet=
+processor=S32V_A53_Apex_Linux
+productVersion=b190704 
+ramSize=0
+ramStart=0
+toolchainVersion=
+wizardVersion=1.0.0.201907041707

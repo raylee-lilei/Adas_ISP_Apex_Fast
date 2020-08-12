@@ -1,0 +1,6 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+CXX_INCS := -I"$(VSDK_DIR)/kernels/apu/sample_filtering_kernels/src" -I"$(VSDK_DIR)/kernels/apu/sample_feature_detection_kernels/src" -I"$(VSDK_DIR)/kernels/apu/sample_display_kernels/src" -I"$(VSDK_DIR)/kernels/apu/sample_conversion_kernels/src" -I"$(VSDK_DIR)/kernels/apu/sample_morphology_kernels/src"
+

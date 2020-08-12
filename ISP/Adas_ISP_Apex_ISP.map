@@ -1,0 +1,61 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00010000                . = 0x10000
+
+.text
+ *(.none)
+
+.glue_7         0x00010000        0x0
+ .glue_7        0x00010000        0x0 linker stubs
+
+.glue_7t        0x00010000        0x0
+ .glue_7t       0x00010000        0x0 linker stubs
+
+.vfp11_veneer   0x00010000        0x0
+ .vfp11_veneer  0x00010000        0x0 linker stubs
+
+.v4_bx          0x00010000        0x0
+ .v4_bx         0x00010000        0x0 linker stubs
+
+.iplt           0x00010000        0x0
+ .iplt          0x00010000        0x0 ./ISP_kernels/copy_1to1_ipus.oipus
+
+.rel.dyn        0x00010000        0x0
+ .rel.iplt      0x00010000        0x0 ./ISP_kernels/copy_1to1_ipus.oipus
+                0x00000000                . = 0x0
+
+.data           0x00000000        0xc
+ *(.data)
+ .data          0x00000000        0x0 ./ISP_kernels/copy_1to1_ipus.oipus
+ *(.text)
+ .text          0x00000000        0xc ./ISP_kernels/copy_1to1_ipus.oipus
+                0x00000000                copy_1to1_ipus_start
+                0x0000000c                copy_1to1_ipus_end
+
+.igot.plt       0x0000000c        0x0
+ .igot.plt      0x0000000c        0x0 ./ISP_kernels/copy_1to1_ipus.oipus
+
+.bss            0x0000000c        0x0
+ *(.bss)
+ .bss           0x0000000c        0x0 ./ISP_kernels/copy_1to1_ipus.oipus
+LOAD ./ISP_kernels/copy_1to1_ipus.oipus
+OUTPUT(Adas_ISP_Apex_ISP.elf elf32-littlearm)
+
+.debug_line     0x00000000       0xa7
+ .debug_line    0x00000000       0xa7 ./ISP_kernels/copy_1to1_ipus.oipus
+
+.debug_info     0x00000000       0xcd
+ .debug_info    0x00000000       0xcd ./ISP_kernels/copy_1to1_ipus.oipus
+
+.debug_abbrev   0x00000000       0x14
+ .debug_abbrev  0x00000000       0x14 ./ISP_kernels/copy_1to1_ipus.oipus
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 ./ISP_kernels/copy_1to1_ipus.oipus

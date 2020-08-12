@@ -1,0 +1,4 @@
+--accept-unknown-input-arch
+-Map Adas_ISP_Apex_ISP.map
+-T"/home/lilei/workspaceS32DS.3.1/Adas_ISP_Apex/Project_Settings/Linker_Files/S32V_ISP.ld"
+"./ISP_kernels/copy_1to1_ipus.oipus"
